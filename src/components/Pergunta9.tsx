@@ -27,10 +27,10 @@ export function Pergunta9() {
             <div className="flex flex-col gap-1">
                 <select id="P9" {...register("p9")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. 'const' permite a reatribuição de valores, enquanto 'let' não.</option>
-                    <option value="2">B. 'const' possui escopo de bloco, enquanto 'let' possui escopo de função.</option>
-                    <option value="3">C. 'const' é usado para variáveis que não terão seus valores alterados, o que pode prevenir erros acidentais.</option>
-                    <option value="4">D. 'let' é mais recomendado por ser mais flexível que 'const'.</option>
+                    <option value="A">A. 'const' permite a reatribuição de valores, enquanto 'let' não.</option>
+                    <option value="B">B. 'const' possui escopo de bloco, enquanto 'let' possui escopo de função.</option>
+                    <option value="C">C. 'const' é usado para variáveis que não terão seus valores alterados, o que pode prevenir erros acidentais.</option>
+                    <option value="D">D. 'let' é mais recomendado por ser mais flexível que 'const'.</option>
                 </select>
             </div>
 

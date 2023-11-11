@@ -27,10 +27,10 @@ export function Pergunta7() {
             <div className="flex flex-col gap-1">
                 <select id="P7" {...register("p7")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Torna o código mais legível.</option>
-                    <option value="2">B. Reduz a complexidade do código.</option>
-                    <option value="3">C. Melhora o desempenho, já que loops aninhados podem ser mais lentos.</option>
-                    <option value="4">D. Aumenta a eficiência na manipulação do DOM.</option>
+                    <option value="A">A. Torna o código mais legível.</option>
+                    <option value="B">B. Reduz a complexidade do código.</option>
+                    <option value="C">C. Melhora o desempenho, já que loops aninhados podem ser mais lentos.</option>
+                    <option value="D">D. Aumenta a eficiência na manipulação do DOM.</option>
                 </select>
             </div>
 

@@ -27,10 +27,10 @@ export function Pergunta5() {
             <div className="flex flex-col gap-1">
                 <select id="P5" {...register("p5")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Utilizar loops aninhados.</option>
-                    <option value="2">B. Acessar o DOM repetidamente.</option>
-                    <option value="3">C. Utilizar variáveis globais.</option>
-                    <option value="4">D. Utilizar variáveis locais e caches.</option>
+                    <option value="A">A. Utilizar loops aninhados.</option>
+                    <option value="B">B. Acessar o DOM repetidamente.</option>
+                    <option value="C">C. Utilizar variáveis globais.</option>
+                    <option value="D">D. Utilizar variáveis locais e caches.</option>
                 </select>
             </div>
 

@@ -27,10 +27,10 @@ export function Pergunta1() {
             <div className="flex flex-col gap-1">
                 <select id="P1" {...register("p1")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Torna o código mais legível.</option>
-                    <option value="2">B. Aumenta o tamanho do arquivo.</option>
-                    <option value="3">C. Reduz o tempo de carregamento da página.</option>
-                    <option value="4">D. Aumenta a facilidade de depuração.</option>
+                    <option value="A">A. Torna o código mais legível.</option>
+                    <option value="B">B. Aumenta o tamanho do arquivo.</option>
+                    <option value="C">C. Reduz o tempo de carregamento da página.</option>
+                    <option value="D">D. Aumenta a facilidade de depuração.</option>
                 </select>
             </div>
 

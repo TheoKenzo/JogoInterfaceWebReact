@@ -27,10 +27,10 @@ export function Pergunta8() {
             <div className="flex flex-col gap-1">
                 <select id="P8" {...register("p8")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Operações lógicas longas são mais fáceis de entender.</option>
-                    <option value="2">B. Operações lógicas curtas podem introduzir erros.</option>
-                    <option value="3">C. Operações lógicas longas são mais eficientes em termos de desempenho.</option>
-                    <option value="4">D. Operações lógicas curtas podem melhorar a legibilidade e desempenho do código.</option>
+                    <option value="A">A. Operações lógicas longas são mais fáceis de entender.</option>
+                    <option value="B">B. Operações lógicas curtas podem introduzir erros.</option>
+                    <option value="C">C. Operações lógicas longas são mais eficientes em termos de desempenho.</option>
+                    <option value="D">D. Operações lógicas curtas podem melhorar a legibilidade e desempenho do código.</option>
                 </select>
             </div>
 

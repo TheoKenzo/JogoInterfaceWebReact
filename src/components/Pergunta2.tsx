@@ -27,10 +27,10 @@ export function Pergunta2() {
             <div className="flex flex-col gap-1">
                 <select id="P2" {...register("p2")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Não há diferença entre eles.</option>
-                    <option value="2">B. 'let' permite escopo global, enquanto 'var' é restrito a funções.</option>
-                    <option value="3">C. 'var' é mais restrito que 'let'.</option>
-                    <option value="4">D. 'let' tem escopo de bloco, 'var' tem escopo de função.</option>
+                    <option value="A">A. Não há diferença entre eles.</option>
+                    <option value="B">B. 'let' permite escopo global, enquanto 'var' é restrito a funções.</option>
+                    <option value="C">C. 'var' é mais restrito que 'let'.</option>
+                    <option value="D">D. 'let' tem escopo de bloco, 'var' tem escopo de função.</option>
                 </select>
             </div>
 

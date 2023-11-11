@@ -21,9 +21,35 @@ export function Pergunta10() {
     }
 
     return isCreated ? (
-        <div>
-            <h1>Respostas</h1>
-            <pre>{JSON.stringify(formData)}</pre>
+        <div className="flex flex-col gap-4">
+            <h1 className="text-lg">Respostas</h1>
+
+            <hr />
+
+            <section className="flex flex-col gap-2">
+                <h2 className="text-lg">Pergunta 1: Qual é a principal vantagem da minificação de código JavaScript?</h2>
+
+                <p>A. Torna o código mais legível.</p>
+                <p>B. Aumenta o tamanho do arquivo.</p>
+                <strong>C. Reduz o tempo de carregamento da página.</strong>
+                <p>D. Aumenta a facilidade de depuração.</p>
+
+                <p className="text-blue-700">Sua resposta: {JSON.stringify(formData.p1)}</p>
+            </section>
+
+            <hr />
+
+            <section className="flex flex-col gap-2">
+                <h2 className="text-lg">Pergunta 1: Qual é a principal vantagem da minificação de código JavaScript?</h2>
+
+                <p>A. Torna o código mais legível.</p>
+                <p>B. Aumenta o tamanho do arquivo.</p>
+                <strong>C. Reduz o tempo de carregamento da página.</strong>
+                <p>D. Aumenta a facilidade de depuração.</p>
+
+                <p className="text-blue-700">Sua resposta: {JSON.stringify(formData.p1)}</p>
+            </section>
+            
         </div>
     ) : (
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
@@ -34,10 +60,10 @@ export function Pergunta10() {
             <div className="flex flex-col gap-1">
                 <select id="P10" {...register("p10")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Para tornar o código mais previsível.</option>
-                    <option value="2">B. Para aumentar a complexidade do código.</option>
-                    <option value="3">C. Para lidar com tarefas que podem levar tempo sem bloquear a execução do restante do código.</option>
-                    <option value="4">D. Para reduzir a eficiência do programa.</option>
+                    <option value="A">A. Para tornar o código mais previsível.</option>
+                    <option value="B">B. Para aumentar a complexidade do código.</option>
+                    <option value="C">C. Para lidar com tarefas que podem levar tempo sem bloquear a execução do restante do código.</option>
+                    <option value="D">D. Para reduzir a eficiência do programa.</option>
                 </select>
             </div>
 

@@ -27,10 +27,10 @@ export function Pergunta3() {
             <div className="flex flex-col gap-1">
                 <select id="P3" {...register("p3")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. Para impedir que o navegador carregue os scripts.</option>
-                    <option value="2">B. Melhora a percepção de velocidade para o usuário.</option>
-                    <option value="3">C. Para bloquear o carregamento de outros elementos da página.</option>
-                    <option value="4">D. Não há benefício em relação à localização dos scripts.</option>
+                    <option value="A">A. Para impedir que o navegador carregue os scripts.</option>
+                    <option value="B">B. Melhora a percepção de velocidade para o usuário.</option>
+                    <option value="C">C. Para bloquear o carregamento de outros elementos da página.</option>
+                    <option value="D">D. Não há benefício em relação à localização dos scripts.</option>
                 </select>
             </div>
 
