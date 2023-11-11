@@ -22,7 +22,7 @@ export function Pergunta10() {
 
     return isCreated ? (
         <div>
-            <h1>Account Created SuccessFully</h1>
+            <h1>Respostas</h1>
             <pre>{JSON.stringify(formData)}</pre>
         </div>
     ) : (
