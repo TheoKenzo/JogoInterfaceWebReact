@@ -22,15 +22,15 @@ export function Pergunta2() {
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
             <h1>Pergunta 2</h1>
 
-            <h3>pergunta...</h3>
+            <h3>Qual é a diferença entre 'let' e 'var' em JavaScript em relação ao escopo de variáveis?</h3>
             
             <div className="flex flex-col gap-1">
                 <select id="P2" {...register("p2")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. </option>
-                    <option value="2">B. </option>
-                    <option value="3">C. </option>
-                    <option value="4">D. </option>
+                    <option value="1">A. Não há diferença entre eles.</option>
+                    <option value="2">B. 'let' permite escopo global, enquanto 'var' é restrito a funções.</option>
+                    <option value="3">C. 'var' é mais restrito que 'let'.</option>
+                    <option value="4">D. 'let' tem escopo de bloco, 'var' tem escopo de função.</option>
                 </select>
             </div>
 

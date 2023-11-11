@@ -22,15 +22,15 @@ export function Pergunta4() {
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
             <h1>Pergunta 4</h1>
 
-            <h3>pergunta...</h3>
+            <h3>Qual é a importância de utilizar event delegation para lidar com eventos em JavaScript?</h3>
             
             <div className="flex flex-col gap-1">
                 <select id="P4" {...register("p4")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. </option>
-                    <option value="2">B. </option>
-                    <option value="3">C. </option>
-                    <option value="4">D. </option>
+                    <option value="1">A. Aumenta o número de eventos no código.</option>
+                    <option value="2">B. Torna o código mais lento.</option>
+                    <option value="3">C. Reduz a necessidade de anexar eventos a vários elementos.</option>
+                    <option value="4">D. Não afeta o desempenho do código.</option>
                 </select>
             </div>
 

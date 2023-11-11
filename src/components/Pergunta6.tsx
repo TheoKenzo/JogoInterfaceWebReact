@@ -22,15 +22,15 @@ export function Pergunta6() {
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
             <h1>Pergunta 6</h1>
 
-            <h3>pergunta...</h3>
+            <h3>O que é caching em JavaScript?</h3>
             
             <div className="flex flex-col gap-1">
                 <select id="P6" {...register("p6")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. </option>
-                    <option value="2">B. </option>
-                    <option value="3">C. </option>
-                    <option value="4">D. </option>
+                    <option value="1">A. Uma técnica para deixar o código mais lento.</option>
+                    <option value="2">B. Armazenar dados temporariamente para reduzir a necessidade de cálculos repetitivos ou acessos a recursos externos.</option>
+                    <option value="3">C. Uma prática para minificar o código.</option>
+                    <option value="4">D. A técnica de aumentar o tamanho dos arquivos JavaScript.</option>
                 </select>
             </div>
 

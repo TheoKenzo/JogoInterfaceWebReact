@@ -29,15 +29,15 @@ export function Pergunta10() {
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
             <h1>Pergunta 10</h1>
 
-            <h3>pergunta...</h3>
+            <h3>Qual é a razão para utilizar operações assíncronas em JavaScript?</h3>
 
             <div className="flex flex-col gap-1">
                 <select id="P10" {...register("p10")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. </option>
-                    <option value="2">B. </option>
-                    <option value="3">C. </option>
-                    <option value="4">D. </option>
+                    <option value="1">A. Para tornar o código mais previsível.</option>
+                    <option value="2">B. Para aumentar a complexidade do código.</option>
+                    <option value="3">C. Para lidar com tarefas que podem levar tempo sem bloquear a execução do restante do código.</option>
+                    <option value="4">D. Para reduzir a eficiência do programa.</option>
                 </select>
             </div>
 

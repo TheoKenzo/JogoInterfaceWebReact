@@ -22,15 +22,15 @@ export function Pergunta5() {
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
             <h1>Pergunta 5</h1>
 
-            <h3>pergunta...</h3>
+            <h3>Qual das seguintes práticas ajuda a reduzir a carga no DOM?</h3>
             
             <div className="flex flex-col gap-1">
                 <select id="P5" {...register("p5")} required>
                     <option value="">Escolha uma opção</option>
-                    <option value="1">A. </option>
-                    <option value="2">B. </option>
-                    <option value="3">C. </option>
-                    <option value="4">D. </option>
+                    <option value="1">A. Utilizar loops aninhados.</option>
+                    <option value="2">B. Acessar o DOM repetidamente.</option>
+                    <option value="3">C. Utilizar variáveis globais.</option>
+                    <option value="4">D. Utilizar variáveis locais e caches.</option>
                 </select>
             </div>
 
