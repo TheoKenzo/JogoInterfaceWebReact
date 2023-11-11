@@ -5,10 +5,10 @@ import { useFormState } from "./FormContext"
 import { useState } from "react"
 
 type TFormValues = {
-    password : string
+    p10 : string
 }
 
-export function PasswordForm() {
+export function Pergunta10() {
     const [ isCreated, setCreated ] = useState(false)
     const { onHandleBack, setFormData, formData } = useFormState()
     const { register, handleSubmit } = useForm<TFormValues>({
@@ -27,13 +27,23 @@ export function PasswordForm() {
         </div>
     ) : (
         <form className="space-y-6" onSubmit={handleSubmit(onHandleFormSubmit)}>
+            <h1>Pergunta 10</h1>
+
+            <h3>pergunta...</h3>
+
             <div className="flex flex-col gap-1">
-                <label htmlFor="password">Password</label>
-                <input type="password" id="password" placeholder="password" className="h-11 px-4 border rounded-md" {...register("password")} required />
+                <select id="P10" {...register("p10")} required>
+                    <option value="">Escolha uma opção</option>
+                    <option value="1">A. </option>
+                    <option value="2">B. </option>
+                    <option value="3">C. </option>
+                    <option value="4">D. </option>
+                </select>
             </div>
+
             <div className="flex justify-end gap-4">
-                <button type="button" onClick={ onHandleBack } className="h-11 px-6 bg-black text-white rounded-md">Back</button>
-                <button className="h-11 px-6 bg-black text-white rounded-md">Submit</button>
+                <button type="button" onClick={ onHandleBack } className="h-11 px-6 bg-black text-white rounded-md">Voltar</button>
+                <button className="h-11 px-6 bg-black text-white rounded-md">Enviar</button>
             </div>
         </form>
     )

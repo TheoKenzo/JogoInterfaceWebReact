@@ -1,9 +1,16 @@
 import { Dispatch, ReactNode, SetStateAction, createContext, useContext, useState } from "react";
 
 interface TFormData{
-    username:string
-    email:string
-    password:string
+    p1:string
+    p2:string
+    p3:string
+    p4:string
+    p5:string
+    p6:string
+    p7:string
+    p8:string
+    p9:string
+    p10:string
 }
 
 interface IFormContext{
@@ -19,9 +26,16 @@ const FormContext = createContext<IFormContext>({
     onHandleNext: () => {},
     step: 1,
     formData: {
-        username: "",
-        email: "",
-        password: "",
+        p1: "",
+        p2: "",
+        p3: "",
+        p4: "",
+        p5: "",
+        p6: "",
+        p7: "",
+        p8: "",
+        p9: "",
+        p10: "",
     },
     setFormData: () => {},
 })
@@ -33,9 +47,16 @@ interface IProps{
 export function FormProvider({children}:IProps){
     const [step, setStep] = useState(1)
     const [formData, setFormData] = useState<TFormData>({
-        username: "",
-        email: "",
-        password: "",
+        p1: "",
+        p2: "",
+        p3: "",
+        p4: "",
+        p5: "",
+        p6: "",
+        p7: "",
+        p8: "",
+        p9: "",
+        p10: "",
     })
 
     function onHandleNext(){
