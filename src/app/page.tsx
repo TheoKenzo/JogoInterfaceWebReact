@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className='flex justify-center items-center min-h-screen p-6 bg-gray-100'>
         <div className='max-w-2xl w-full border p-6 rounded-md bg-white'>
-          <h1 className='text-x1 font-semibold text-center'>Boas práticas de programação em JavaScript</h1>
+          <h1 className='text-xl font-semibold text-center'>Boas práticas de programação em JavaScript</h1>
           <FormProvider>
             <FormStep />
           </FormProvider>
